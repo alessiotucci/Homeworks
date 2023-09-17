@@ -4,7 +4,7 @@ here I will push several random files, leetcode question and side project, I wil
 |Name of the folder| Content| Image                                                                                                    | 
 -------------------|--------|----------------------------------------------------------------------------------------------------------|
 | [`Leetcode`](https://github.com/alessiotucci/Homeworks/tree/main/leetcode)|I want to get good at leetcode, starting with the basic questions| <img src="https://github.com/alessiotucci/Homeworks/assets/116757689/b91c812c-963a-4f28-84ce-eb2087f9b8a1" width="290"> | 
-|    ...           |  .  .  | Image | 
+| [`Hackingtosh for surface pro 3`]()| I decided to hackingtosh my old surface pro 3. It a used 2in1 laptop I used for taking notes, but since the 42 in Rome use MacOs, for compatibility I wanted to install this Os, Pretty channlenging | Image | 
 
 
 |Question |<img align="center" alt="C" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg"/> | <img align="center" alt="c#" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" /> | difficulty |
