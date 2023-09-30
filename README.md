@@ -1,4 +1,4 @@
-# Homeworks
+# Side Project
 here I will push several random files, leetcode question and side project, I will try to keep it organized and simple 
 
 |Name of the folder| Content| Image                                                                                                    | 
