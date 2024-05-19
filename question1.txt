@@ -1,0 +1,64 @@
+2. Question 2
+The newspaper HackerRankNews distributed lottery tickets to everyone, and the winning lottery ID is described in the paper denoted by winnerID.
+
+ 
+
+In order to win the lottery, a customer having a lottery ID denoted by lotteryID needs to maximize the length of the longest common subsequence of the strings lotteryID and winnerID.  To do so, the customer can perform up to k operations. In each operation, the customer can change any character in lotteryID either to its next or previous character. 
+
+ 
+
+Find the maximum possible length of the longest common subsequence after at most k such operations.
+
+ 
+
+Note:
+
+Operations can be performed only on lotteryID, not on winnerID.
+The next character of a given character ch is the character that comes just after it in the alphabet. Similarly, the previous character is the character that comes just before it in the alphabet. For example, the next character of 'm' is 'n' and the previous is 'l'. For 'z' the next character is 'a' and for 'a' the previous character is 'z'.
+ 
+
+Example
+
+Consider lotteryID = "fpelqanxyk", winnerID = "hackerrank", and maximum allowed operations k = 6.
+
+ 
+
+One of the optimal ways to perform the operations is as follows:
+
+Select i = 0, convert lotteryID[0] to its next character, lotteryID = "gpelqanxyk"
+Select i = 0, convert lotteryID[0] to its next character, lotteryID = "hpelqanxyk"
+Select i = 2, convert lotteryID[2] to its previous character, lotteryID = "hpdlqanxyk"
+Select i = 2, convert lotteryID[2] to its previous character, lotteryID = "hpclqanxyk"
+Select i = 3, convert lotteryID[3] to its previous character, lotteryID = "hpckqanxyk"
+Select i = 4, convert lotteryID[4] to its next character, lotteryID = "hpckranxyk"
+Now, longest common subsequence between lotteryID and winnerID = "hckrank". The length of the longest common subsequence is 7, which is the maximum possible. So, the answer is 7.
+
+ 
+
+Function Description
+
+Complete the function getMaximumLength in the editor below.
+
+ 
+
+getMaximumLength has the following parameters:
+
+    string lotteryID: the lottery ID of the customer
+
+    string winnerID: the winner's ID published in the newspaper
+
+    int k: the maximum number of operations
+
+ 
+
+Returns
+
+    int:  the length of the longest common subsequence
+
+ 
+
+Constraints
+
+1 ≤ length(lotteryID) , length(winnerID) ≤ 100
+0 ≤ k ≤ 200
+

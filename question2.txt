@@ -1,0 +1,51 @@
+3. Question 3
+An e-commerce shopping platform has a network of warehouses in cities for shipment. The network has warehouse_nodes number of warehouses numbered 1, 2, 3, .. , warehouse_nodes, connected by warehouse_edges number of bidirectional roads, where the ith road connects warehouse_from[i] and warehouse_to[i]. 
+
+ 
+
+In order to avoid traffic and congestion, these roads are to be made directional such that trucks can go only in one direction along the roads. A warehouse is said to be unreachable if there are no incoming edges (roads) towards that warehouse after the transformation. Find the minimum number of unreachable warehouses after the optimal transformation of roads.
+
+ 
+
+Note: The network of warehouses forms a graph, and the graph may be disconnected.
+
+ 
+
+Example:
+
+Consider warehouse_nodes = 6, warehouse_edges = 5, warehouse_from = [1, 2, 4, 5, 4], and warehouse_to = [2, 3, 5, 6, 6].
+
+ 
+
+The network looks like this:
+The only unreachable warehouse is 1, which has no incoming road. The answer is 1.
+
+
+
+Function Description
+
+Complete the function countMinimumUnreachableWarehouses in the editor below.
+
+
+
+countMinimumUnreachableWarehouses has the following parameters:
+
+    int warehouse_nodes:  the number of warehouses
+    int warehouse_from[warehouse_edges]: the starting nodes of each bidirectional road
+    int warehouse_to[warehouse_edges]: the end nodes of each bidirectional road
+
+
+
+Returns:
+
+    int: the minimum number of unreachable warehouses after optimal transformation
+
+
+
+Constraints
+
+1 ≤ warehouse_nodes ≤ 105
+0 ≤ warehouse_edges ≤ 2 * 105
+1 ≤ warehouse_from[i], warehouse_to[i] ≤ warehouse_nodes
+The graph may contain self-loops and multiple edges.
+
